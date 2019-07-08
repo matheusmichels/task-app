@@ -17,6 +17,7 @@ import {
   Selector,
   Form,
   Title,
+  Small,
   Separator,
   Regular,
   TaskName,
@@ -96,10 +97,10 @@ export default class TaskModal extends Component {
             <Regular size={12}>Deadline</Regular>
             <Deadline>
               <Selector onPress={this.handleChangeDate}>
-                <Regular size={12}>22/02</Regular>
+                <Small>22/02</Small>
               </Selector>
               <Selector onPress={this.handleChangeTime}>
-                <Regular size={12}>21:00</Regular>
+                <Small>21:00</Small>
               </Selector>
               <SwitchContainer>
                 <Switch

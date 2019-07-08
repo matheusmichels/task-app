@@ -86,6 +86,11 @@ export const Selector = styled.TouchableOpacity`
   margin-left: 20px;
 `;
 
+export const Small = styled.Text`
+  font-family: 'Montserrat-Regular';
+  font-size: 12px;
+`;
+
 export const SwitchContainer = styled.View`
   align-items: center;
   justify-content: center;

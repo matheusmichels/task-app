@@ -4,7 +4,7 @@ import SvgUri from 'react-native-svg-uri';
 
 import { Container, Text, Avatar } from './styles';
 
-import Menu from '../../assets/images/menu-2.svg';
+import Menu from '../../assets/images/menu.svg';
 import User from '../../assets/images/avatar.svg';
 
 const Header = props => (

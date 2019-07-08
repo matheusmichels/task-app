@@ -18,9 +18,7 @@ const Navigator = createMaterialTopTabNavigator(
     Tasks
   },
   {
-    initialRouteName: 'Tasks',
     tabBarOptions: {
-      barStyle: '#fff',
       showIcon: false,
       showLabel: false,
       tabStyle: {

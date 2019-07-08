@@ -10,7 +10,6 @@ const Routes = createAppContainer(
       Main
     },
     {
-      initialRouteName: 'Login',
       headerMode: 'none'
     }
   )
